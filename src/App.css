@@ -21,6 +21,13 @@ body{
   height: 100%;
   width: 100vw;
 }
+
+@media only screen and (max-width: 600px) {
+  .choices {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
 .game-window button{
   cursor: pointer;
   padding: 5px 15px;
